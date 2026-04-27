@@ -3,408 +3,211 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Hala Ali | PhD Candidate in Computer Science</title>
 
   <meta name="google-site-verification" content="NQsKOROxwNLEWnJ1BIXP-pTnCd9A6mEfpAVzVDuQgTc" />
-  <meta name="description" content="Hala Ali — PhD candidate at Virginia Commonwealth University specializing in memory forensics, malware analysis, software supply chain security, and AI security." />
-  <meta name="keywords" content="Hala Ali, Virginia Commonwealth University, VCU, memory forensics, malware analysis, software supply chain security, SBOM, eBPF, Volatility 3, Go malware, Python memory forensics, AI security" />
-  <meta name="author" content="Hala Ali" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <meta name="keywords" content="Hala Ali, Virginia Commonwealth University, VCU, memory forensics, malware analysis, software supply chain security, SBOM, Volatility 3, Go malware, Python memory forensics, runtime memory analysis" />
+  <meta name="keywords" content="Hala Ali, Virginia Commonwealth University, VCU, memory forensics, malware analysis, software supply chain security, SBOM, eBPF, Volatility 3, Go malware, Python memory forensics" />
+
+  <meta name="author" content="Hala Ali" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Subtle grain overlay -->
-  <div class="grain"></div>
-
   <div class="container">
 
-    <!-- ========== HEADER ========== -->
-    <header class="hero">
-      <div class="hero-photo">
-        <img src="profile.jpg" alt="Hala Ali" />
-      </div>
-      <div class="hero-text">
-        <p class="hero-label">PhD Candidate &middot; Computer Science</p>
+    <header class="profile">
+      <img src="profile.jpg" alt="Hala Ali" class="profile-img" />
+
+      <div class="profile-text">
         <h1>Hala Ali</h1>
-        <p class="hero-affiliation">Virginia Commonwealth University</p>
-        <p class="hero-tagline">
-          Memory forensics &middot; Malware analysis &middot; Supply chain security &middot; AI security
+        <p class="title">
+          PhD Candidate in Computer Science<br />
+          Virginia Commonwealth University
         </p>
-        <nav class="hero-links">
-          <a href="mailto:alih16@vcu.edu" class="link-pill">Email</a>
-          <a href="https://scholar.google.com/citations?user=W3K5frsAAAAJ&hl=en" class="link-pill">Google Scholar</a>
-          <a href="https://www.linkedin.com/in/hala-ali-585716172" class="link-pill">LinkedIn</a>
-          <a href="Hala_Ali_CV.pdf" class="link-pill link-pill--accent">Download CV</a>
-        </nav>
+
+        <p class="links">
+          <a href="mailto:alih16@vcu.edu">Email</a> |
+          <a href="https://scholar.google.com/citations?user=W3K5frsAAAAJ&hl=en">Google Scholar</a> |
+          <a href="https://www.linkedin.com/in/hala-ali-585716172">LinkedIn</a> |
+          <a href="Hala_Ali_CV.pdf">CV</a>
+        </p>
       </div>
     </header>
 
-    <!-- ========== ABOUT ========== -->
-    <section class="section fade-in" id="about">
-      <h2><span class="section-number">01</span> About</h2>
-      <div class="about-body">
-        <p>
-          I am a PhD candidate in Computer Science at Virginia Commonwealth University.
-          My research focuses on memory forensics, malware analysis, software supply chain
-          security, runtime SBOM generation, and AI security.
-        </p>
-        <p>
-          My work develops memory- and runtime-based techniques for recovering software behavior
-          after execution, including Volatility 3 plugins for Python and Go runtime analysis,
-          runtime SBOM generation from Python memory, and automated memory forensics techniques
-          for analyzing Go malware. I also investigate security risks in machine learning model
-          supply chains, applying kernel-level tracing to detect malicious behavior at inference time.
-        </p>
-      </div>
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a PhD candidate in Computer Science at Virginia Commonwealth University,
+        where I work in the Security and Forensics Engineering Lab. My research focuses
+        on memory forensics, malware analysis, software supply chain security, runtime
+        SBOM generation, and eBPF-based monitoring of malicious ML models.
+      </p>
+
+      <p>
+       My recent work develops memory- and runtime-based techniques for recovering
+      software behavior after execution, including Volatility 3 plugins for Python
+      and Go runtime analysis, runtime SBOM generation from Python memory, and
+      automated memory forensics techniques for analyzing Go malware.
+      </p>
     </section>
 
-    <!-- ========== NEWS ========== -->
-    <section class="section fade-in" id="news">
-      <h2><span class="section-number">02</span> News</h2>
-      <div class="news-list">
-        <div class="news-item">
-          <span class="news-year">2026</span>
-          <p>Paper accepted at <strong>DFRWS USA 2026</strong>: "Memory Forensics Techniques for Automated Detection and Analysis of Go Malware."</p>
-        </div>
-        <div class="news-item">
-          <span class="news-year">2026</span>
-          <p>Speaker at <strong>PyCon US 2026</strong> on post-incident runtime SBOM generation from Python memory.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-year">2025</span>
-          <p>Speaker at <strong>WiCyS 2025</strong> on memory forensics techniques in Python-based supply chain security.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-year">2025</span>
-          <p>Co-instructor for <strong>"Modern Memory Forensics with Volatility 3"</strong> at DFRWS USA.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-year">2025</span>
-          <p>Received the <strong>DFRWS 2025 Best Paper Award</strong>.</p>
-        </div>
-        <div class="news-item">
-          <span class="news-year">2025</span>
-          <p>Received the <strong>U.S. Cyber Command Defender Award</strong>.</p>
-        </div>
-      </div>
+    <section>
+      <h2>Research Interests</h2>
+      <ul>
+        <li>Memory Forensics and Malware Analysis</li>
+        <li>Python and Go Runtime Memory Analysis</li>
+        <li>Software Supply Chain Security</li>
+        <li>Runtime SBOM Generation and Vulnerability Reachability</li>
+        <li>eBPF-based Runtime Monitoring of Malicious ML Models</li>
+        <li>3D Printing Security</li>
+      </ul>
     </section>
 
-    <!-- ========== RESEARCH INTERESTS ========== -->
-    <section class="section fade-in" id="interests">
-      <h2><span class="section-number">03</span> Research Interests</h2>
-      <div class="interests-grid">
-        <div class="interest-card">
-          <div class="interest-icon">&#x1F50D;</div>
-          <h3>Memory Forensics &amp; Malware Analysis</h3>
-          <p>Python and Go runtime memory analysis using Volatility 3 plugins.</p>
-        </div>
-        <div class="interest-card">
-          <div class="interest-icon">&#x1F517;</div>
-          <h3>Supply Chain Security</h3>
-          <p>Runtime SBOM generation, dependency graphs, and vulnerability reachability analysis.</p>
-        </div>
-        <div class="interest-card">
-          <div class="interest-icon">&#x1F916;</div>
-          <h3>AI Security</h3>
-          <p>eBPF-based runtime monitoring and behavioral analysis of ML model execution.</p>
-        </div>
-        <div class="interest-card">
-          <div class="interest-icon">&#x1F5A8;</div>
-          <h3>3D Printing Security</h3>
-          <p>ML-based detection of G-code attacks and forensic investigation of additive manufacturing.</p>
-        </div>
-      </div>
+    <section>
+      <h2>News</h2>
+      <ul>
+        <li><strong>2026:</strong> Paper accepted at DFRWS USA 2026: “Memory Forensics Techniques for Automated Detection and Analysis of Go Malware.”</li>
+        <li><strong>2026:</strong> Speaker at PyCon US 2026 on post-incident runtime SBOM generation from Python memory.</li>
+        <li><strong>2025:</strong> Speaker at WiCyS 2025 on memory forensics techniques in Python-based supply chain security.</li>
+        <li><strong>2025:</strong> Co-instructor for “Modern Memory Forensics with Volatility 3” at DFRWS USA.</li>
+        <li><strong>2025:</strong> Received the DFRWS 2025 Best Paper Award.</li>
+        <li><strong>2025:</strong> Received the U.S. Cyber Command Defender Award.</li>
+      </ul>
     </section>
 
-    <!-- ========== PUBLICATIONS ========== -->
-    <section class="section fade-in" id="publications">
-      <h2><span class="section-number">04</span> Publications</h2>
-
-      <h3 class="pub-category">Published</h3>
-      <ol class="pub-list" reversed>
+    <section>
+      <h2>Selected Publications</h2>
+      <ol>
         <li>
           <strong>H. Ali</strong>, A. Case, and I. Ahmed.
-          "Memory Forensics Techniques for Automated Detection and Analysis of Go Malware."
+          “Memory Forensics Techniques for Automated Detection and Analysis of Go Malware.”
           <em>DFRWS USA</em>, 2026.
         </li>
+
         <li>
           <strong>H. Ali</strong>, A. Case, and I. Ahmed.
-          "Leveraging Memory Forensics to Investigate and Detect Illegal 3D Printing Activities."
-          <em>Forensic Science International: Digital Investigation</em> (Q1), 2025.
-          <span class="badge">Best Paper Award</span>
+          “Leveraging Memory Forensics to Investigate and Detect Illegal 3D Printing Activities.”
+          <em>Forensic Science International: Digital Investigation</em>, 2025.
         </li>
+
         <li>
           <strong>H. Ali</strong>, A. Case, and I. Ahmed.
-          "Memory Analysis of the Python Runtime Environment."
-          <em>Forensic Science International: Digital Investigation</em> (Q1), 2025.
+          “Memory Analysis of the Python Runtime Environment.”
+          <em>Forensic Science International: Digital Investigation</em>, 2025.
         </li>
+
         <li>
           <strong>H. Ali</strong>, A. Cano, and I. Ahmed.
-          "Machine Learning-based Early Detection of Malicious G-code Manipulations in 3D Printing."
-          <em>Journal of Manufacturing Processes</em> (Q1), 2025.
+          “Machine Learning-based Early Detection of Malicious G-code Manipulations in 3D Printing.”
+          <em>Journal of Manufacturing Processes</em>, 2025.
         </li>
+
         <li>
           <strong>H. Ali</strong> and I. Ahmed.
-          "LAAKA: Lightweight Anonymous Authentication and Key Agreement Scheme for Secure Fog-driven IoT Systems."
-          <em>Computers &amp; Security</em> (Q1), 2024.
+          “LAAKA: Lightweight Anonymous Authentication and Key Agreement Scheme for Secure Fog-driven IoT Systems.”
+          <em>Computers & Security</em>, 2024.
         </li>
-        <li>
-          <strong>H. Ali</strong> and R. Sridevi.
-          "Mobility and Security Aware Real-Time Task Scheduling in Fog-Cloud Computing for IoT Devices: A Fuzzy-Logic Approach."
-          <em>The Computer Journal</em> (Q2), 2023.
-        </li>
-        <li>
-          <strong>H. Ali</strong> and R. Sridevi.
-          "Credential-based Authentication Mechanism for IoT Devices in Fog-Cloud Computing."
-          <em>ICT for Sustainable Development (ICT4SD)</em>, 2022.
-        </li>
-        <li>
-          <strong>H. Ali</strong>, R. R. Rout, P. Parimi, and S. K. Das.
-          "Real-time Task Scheduling in Fog-Cloud Computing Framework for IoT Applications: A Fuzzy Logic-based Approach."
-          <em>COMSNETS</em>, 2021.
-        </li>
-      </ol>
 
-      <h3 class="pub-category">Under Review</h3>
-      <ol class="pub-list">
         <li>
-          <strong>H. Ali</strong>, A. Case, and I. Ahmed.
-          "What You See Is Not What You Execute: Memory-Based Runtime SBOM Generation for Supply Chain Security."
-          <em>Computers &amp; Security</em> (Q1), 2025.
+          <strong>H. Ali</strong> and R. Sridevi.
+          “Mobility and Security Aware Real-Time Task Scheduling in Fog-Cloud Computing for IoT Devices: A Fuzzy-Logic Approach.”
+          <em>The Computer Journal</em>, 2023.
         </li>
       </ol>
     </section>
 
-    <!-- ========== CURRENT RESEARCH ========== -->
-    <section class="section fade-in" id="projects">
-      <h2><span class="section-number">05</span> Current Research Projects</h2>
+    <section>
+      <h2>Current Research Projects</h2>
 
-      <div class="project">
-        <h3>Memory Forensics of Go Malware</h3>
-        <p>
-          Developing Volatility 3 plugins to reconstruct runtime artifacts of Go-based
-          malware, including function metadata, goroutines, channels, strings,
-          interfaces, and heap objects. Evaluated against real-world malware families
-          including BRICKSTORM, Obscura, and Pantegana.
-        </p>
-      </div>
+      <h3>Memory Forensics of Go Malware</h3>
+      <p>
+        Developing Volatility 3 plugins to reconstruct runtime artifacts of Go-based
+        malware, including function metadata, goroutines, channels, strings,
+        interfaces, and heap objects.
+      </p>
 
-      <div class="project">
-        <h3>MEM-SBOM: Memory-based Runtime SBOM Generation</h3>
-        <p>
-          Developing memory forensic techniques to generate runtime SBOMs for Python
-          applications, recover dependency graphs, identify dynamically injected
-          components, and analyze vulnerable-code reachability from memory.
-        </p>
-      </div>
+      <h3>MEM-SBOM: Memory-based Runtime SBOM Generation</h3>
+      <p>
+        Developing memory forensic techniques to generate runtime SBOMs for Python
+        applications, recover dependency graphs, identify dynamically injected
+        components, and analyze vulnerable-code reachability from memory.
+      </p>
 
      
-      <div class="project">
-        <h3>3D Printing Security</h3>
-        <p>
-          Designing techniques for detecting malicious G-code manipulations and
-          investigating illegal 3D printing activities using machine learning and
-          memory forensics.
-        </p>
-      </div>
+
+      <h3>3D Printing Security</h3>
+      <p>
+        Designing techniques for detecting malicious G-code manipulations and
+        investigating illegal 3D printing activities using machine learning and
+        memory forensics.
+      </p>
     </section>
 
-    <!-- ========== EDUCATION ========== -->
-    <section class="section fade-in" id="education">
-      <h2><span class="section-number">06</span> Education</h2>
-      <div class="education-list">
-        <div class="edu-item">
-          <div class="edu-meta">
-            <span class="edu-date">2023 &ndash; Present</span>
-            <span class="edu-gpa">GPA: 4.00</span>
-          </div>
-          <h3>PhD in Computer Science</h3>
-          <p>Virginia Commonwealth University, Richmond, Virginia, USA</p>
-        </div>
-        <div class="edu-item">
-          <div class="edu-meta">
-            <span class="edu-date">2018 &ndash; 2020</span>
-            <span class="edu-gpa">GPA: 3.54</span>
-          </div>
-          <h3>M.Tech in Computer Science &amp; Information Security</h3>
-          <p>National Institute of Technology, Warangal, India</p>
-        </div>
-        <div class="edu-item">
-          <div class="edu-meta">
-            <span class="edu-date">2011 &ndash; 2016</span>
-            <span class="edu-gpa">GPA: 3.79</span>
-          </div>
-          <h3>B.Eng in Networks Engineering &amp; Computer Systems</h3>
-          <p>Homs University, Homs, Syria</p>
-        </div>
-      </div>
+    <section>
+      <h2>Talks & Presentations</h2>
+      <ul>
+        <li><strong>PyCon US 2026:</strong> Post-Incident Runtime SBOM Generation from Python Memory.</li>
+        <li><strong>DFRWS USA 2026:</strong> Memory Forensics Techniques for Automated Detection and Analysis of Go Malware.</li>
+        <li><strong>WiCyS 2025:</strong> Leveraging Memory Forensics Techniques in Python-based Supply Chain Security.</li>
+        <li><strong>DFRWS USA 2025:</strong> Modern Memory Forensics with Volatility 3, Co-Instructor.</li>
+        <li><strong>DFRWS USA 2023:</strong> Natural Language Processing for Digital Forensics, Co-Instructor.</li>
+        <li><strong>Space ISAC SCRM Workshop 2023:</strong> Cybersecurity in Additive Manufacturing Systems.</li>
+      </ul>
     </section>
 
-    <!-- ========== TALKS ========== -->
-    <section class="section fade-in" id="talks">
-      <h2><span class="section-number">07</span> Talks &amp; Workshops</h2>
-      <div class="talks-list">
-        <div class="talk-item">
-          <span class="talk-venue">PyCon US 2026</span>
-          <p>Post-Incident Runtime SBOM Generation from Python Memory.</p>
-        </div>
-        <div class="talk-item">
-          <span class="talk-venue">DFRWS USA 2026</span>
-          <p>Memory Forensics Techniques for Automated Detection and Analysis of Go Malware.</p>
-        </div>
-        <div class="talk-item">
-          <span class="talk-venue">WiCyS 2025</span>
-          <p>Leveraging Memory Forensics Techniques in Python-based Supply Chain Security.</p>
-        </div>
-        <div class="talk-item">
-          <span class="talk-venue">DFRWS USA 2025</span>
-          <p>Modern Memory Forensics with Volatility 3. <em>(Co-Instructor)</em></p>
-        </div>
-        <div class="talk-item">
-          <span class="talk-venue">DFRWS USA 2023</span>
-          <p>Natural Language Processing for Digital Forensics. <em>(Co-Instructor)</em></p>
-        </div>
-        <div class="talk-item">
-          <span class="talk-venue">Space ISAC 2023</span>
-          <p>Cybersecurity in Additive Manufacturing Systems.</p>
-        </div>
-      </div>
+    <section>
+      <h2>Awards & Recognition</h2>
+      <ul>
+        <li><strong>Best Paper Award</strong>, DFRWS USA, 2025.</li>
+        <li><strong>U.S. Cyber Command Defender Award</strong>, 2025.</li>
+      </ul>
     </section>
 
-    <!-- ========== AWARDS ========== -->
-    <section class="section fade-in" id="awards">
-      <h2><span class="section-number">08</span> Awards &amp; Recognition</h2>
-      <div class="awards-grid">
-        <div class="award-card">
-          <div class="award-year">2025</div>
-          <h3>Best Paper Award</h3>
-          <p>DFRWS USA &mdash; 25th Annual Digital Forensics Research Conference</p>
-        </div>
-        <div class="award-card">
-          <div class="award-year">2025</div>
-          <h3>U.S. Cyber Command Defender Award</h3>
-          <p>3rd Annual Cyber RECon Conference</p>
-        </div>
-      </div>
+    <section>
+      <h2>CVE</h2>
+      <ul>
+        <li>
+          <strong>CVE-2024-51330:</strong> Arbitrary Code Execution Vulnerability
+          in Ultimaker Cura via Malicious G-Code Project.
+        </li>
+      </ul>
     </section>
 
-    <!-- ========== CVE ========== -->
-    <section class="section fade-in" id="cve">
-      <h2><span class="section-number">09</span> CVE</h2>
-      <div class="cve-item">
-        <span class="cve-id">CVE-2024-51330</span>
-        <p>Arbitrary Code Execution Vulnerability in Ultimaker Cura via Malicious G-Code Project.</p>
-      </div>
+    <section>
+      <h2>Teaching & Workshops</h2>
+      <ul>
+        <li><strong>Teaching Assistant:</strong> CMSC535, Introduction to Data Science, VCU, Fall 2025.</li>
+        <li><strong>Teaching Assistant:</strong> CMSC235, Computing and Ethics Data, VCU, Fall 2023.</li>
+        <li><strong>Co-Instructor:</strong> Modern Memory Forensics with Volatility 3, DFRWS USA 2025.</li>
+        <li><strong>Co-Instructor:</strong> NLP for Digital Forensics, Virginia State Police, 2024.</li>
+        <li><strong>Co-Instructor:</strong> NLP for Digital Forensics, DFRWS USA 2023.</li>
+      </ul>
     </section>
 
-    <!-- ========== SKILLS ========== -->
-    <section class="section fade-in" id="skills">
-      <h2><span class="section-number">10</span> Technical Skills</h2>
-      <div class="skills-row">
-        <div class="skill-group">
-          <h3>Languages</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">C</span>
-            <span class="skill-tag">Go</span>
-            <span class="skill-tag">LaTeX</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>Security &amp; Forensics</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Volatility 3</span>
-            <span class="skill-tag">Ghidra</span>
-            <span class="skill-tag">eBPF</span>
-          </div>
-        </div>
-        <div class="skill-group">
-          <h3>SBOM Tooling</h3>
-          <div class="skill-tags">
-            <span class="skill-tag">Syft</span>
-            <span class="skill-tag">Trivy</span>
-            <span class="skill-tag">CDXGen</span>
-            <span class="skill-tag">Grype</span>
-            <span class="skill-tag">CycloneDX</span>
-          </div>
-        </div>
-      </div>
+    <section>
+      <h2>Professional Service & Open Source</h2>
+      <ul>
+        <li>Reviewer for IEEE Internet of Things Journal, IEEE Open Journal of the Communications Society, Computers & Security, The Computer Journal, and The Journal of Supercomputing.</li>
+        <li>Contributor to Syft, cdxgen, and sbom4python.</li>
+        <li>Mentor for undergraduate and summer research projects at VCU.</li>
+      </ul>
     </section>
 
-    <!-- ========== SERVICE ========== -->
-    <section class="section fade-in" id="service">
-      <h2><span class="section-number">11</span> Professional Service &amp; Open Source</h2>
-      <div class="service-body">
-        <h3>Journal Reviewer</h3>
-        <p>
-          IEEE Internet of Things Journal &middot;
-          IEEE Open Journal of the Communications Society &middot;
-          Computers &amp; Security (Elsevier) &middot;
-          The Computer Journal (Oxford) &middot;
-          The Journal of Supercomputing (Springer)
-        </p>
-        <h3>Program Committee</h3>
-        <p>DFRWS USA 2026</p>
-        <h3>Open Source Contributions</h3>
-        <p>Contributor to <strong>Syft</strong>, <strong>cdxgen</strong>, and <strong>sbom4python</strong> &mdash; improving Python dependency parsing and SBOM coverage.</p>
-        <h3>Mentorship</h3>
-        <p>Mentor for undergraduate and summer research projects at VCU, including "LLM in Digital Forensics" and "Machine Learning for Cybersecurity in 3D Printers."</p>
-      </div>
-    </section>
-
-    <!-- ========== TEACHING ========== -->
-    <section class="section fade-in" id="teaching">
-      <h2><span class="section-number">12</span> Teaching</h2>
-      <div class="teaching-list">
-        <div class="teach-item">
-          <span class="teach-role">Teaching Assistant</span>
-          <p>CMSC535: Introduction to Data Science &mdash; VCU, Fall 2025</p>
-        </div>
-        <div class="teach-item">
-          <span class="teach-role">Co-Instructor</span>
-          <p>NLP for Digital Forensics &mdash; Virginia State Police, 2024</p>
-        </div>
-        <div class="teach-item">
-          <span class="teach-role">Teaching Assistant</span>
-          <p>CMSC235: Computing and Ethics Data &mdash; VCU, Fall 2023</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ========== CONTACT ========== -->
-    <section class="section fade-in" id="contact">
-      <h2><span class="section-number">13</span> Contact</h2>
-      <p class="contact-line">
-        <a href="mailto:alih16@vcu.edu">alih16@vcu.edu</a>
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:alih16@vcu.edu">alih16@vcu.edu</a>
       </p>
     </section>
 
     <footer>
-      <p>&copy; Hala Ali</p>
+      <p>© Hala Ali</p>
     </footer>
 
   </div>
-
-  <!-- Scroll-triggered fade-in -->
-  <script>
-    document.addEventListener('DOMContentLoaded', () => {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-            }
-          });
-        },
-        { threshold: 0.08 }
-      );
-      document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
-    });
-  </script>
 </body>
 </html>
