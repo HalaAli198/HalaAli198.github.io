@@ -64,8 +64,6 @@ The file is **not** a standard ZIP-based PyTorch checkpoint. It begins with the 
 
 This matters because every existing static scanner (PickleScan, ModelScan, Hugging Face's built-in scanner, ProtectAI Guardian) expects the modern ZIP-based container format. When they encounter a TAR-based file, they either fail to parse it or skip it entirely. **PyTorch's `torch.load()` handles both formats transparently** — the framework loads the TAR, extracts the pickle stream, and executes the payload. The scanners never see it.
 
-This loading path bypass was [documented by Liu et al.](https://arxiv.org/abs/2412.15100) as one of 22 evasion paths that defeat all four major static scanners. **This is its first confirmed use in the wild.**
-
 ### Scanner results at time of discovery
 
 All scanner results on Hugging Face showed either "No issue" or "Queued." The model was fully downloadable and executable with no security warning.
